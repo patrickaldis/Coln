@@ -5,10 +5,10 @@ on:
   push:
     branches: [main]
 
-defaults:
-  run:
-    shell: nix develop -c bash --noprofile --norc -eo pipefail {0}
-
+# defaults:
+#   run:
+#     shell: nix develop -c bash --noprofile --norc -eo pipefail {0}
+#
 name: Check
 
 jobs:
